@@ -1,0 +1,62 @@
+/*Post*/
+.posts {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.post_avatar {
+    margin-top: 4px;
+}
+
+/*PostBoddy*/
+.postBody {
+    padding-left: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+.postBody > div span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #5b7083;
+}
+
+.post_icon {
+    font-size: 14px !important;
+    color: var(--twitterColor) !important;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+
+/*postDescription*/
+.postDescription {
+    margin-bottom: 10px;
+}
+
+.postDescription > p {
+    margin: 0;
+    padding: 0;
+    color: #0f1419;
+    font-size: 16px;
+    line-height: 16.6875px;
+}
+
+.images {
+    border-radius: 20px;
+    min-width: 100%;
+    width: 100%;
+    min-height: 300px;
+}

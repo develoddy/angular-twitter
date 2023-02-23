@@ -1,0 +1,29 @@
+.app {
+  display: flex;
+  height: 100vh;
+  max-width: 1250px;
+  margin: 0 auto;
+  border: 1px solid red;
+}
+
+.container-sidebar {
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  flex: 0.2;
+  min-width: 255px;
+  border: 1px solid red;
+}
+
+
+.container-home {
+  flex: 0.5;
+  border-right: 1px solid #ddd;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container-home::-webkit-scrollbar {
+  display:none;
+}
