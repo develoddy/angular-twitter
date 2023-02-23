@@ -6,6 +6,13 @@ const routes: Routes = [
   {
     path: '',
     component: SkeletonComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () =>
+        import('./modules/user/user.module').then ( (m) => m.UserModule )
+      }
+    ]
   }
 ];
 
