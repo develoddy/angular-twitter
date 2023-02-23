@@ -1,0 +1,27 @@
+.sidebarIcon {
+    display: flex;
+    align-items: center;
+    padding: 14px 10px;
+}
+.sidebarIcon > h2 {
+    font-size: 19px;
+    margin: 0 15px 0 20px;
+    font-weight: 700;
+}
+
+.sidebarIcon > i {
+    width: 30px;
+    height: 30px;
+    font-size: 19px;
+}
+
+.sidebarIcon:hover {
+    background-color: var(--hover) !important;
+    color: var(--twitterColor);
+    transForm: color 100ms ease-out;
+}
+
+.active {
+    color: var(--twitterColor) !important;
+    background-color: var(--hover) !important;
+}

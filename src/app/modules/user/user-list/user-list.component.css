@@ -1,1 +1,14 @@
-.material-icons.md-48 { font-size: 48px; }
+.container {
+    padding: 20px;
+    border-right: 1px solid #ddd;
+    flex: 0.2;
+    min-width: 255px;
+    border: 1px solid red;
+}
+
+.container > .twitter-logo {
+    margin: 10px 0;
+    width: 46px;
+    height: 30px;
+    fill: var(--twitterColor) !important;
+}
