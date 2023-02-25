@@ -41,10 +41,33 @@
     background-color: var(--hover) !important;
     color: var(--twitterColor);
     transForm: color 100ms ease-out;
+    border-radius: 9999px !important;
+
+    /*background-color: var(--hover) !important;
+    border: none !important;
+    color: var(--twitterColor) !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    height: 46px !important;
+    padding: 0 30px !important;
+    border-radius: 9999px !important;
+    margin-top: 20px;*/
 }
 
 .active {
     color: var(--twitterColor) !important;
     background-color: var(--hover) !important;
+    border-radius: 9999px !important;
+
+    /*background-color: var(--hover) !important;
+    border: none !important;
+    color: var(--twitterColor) !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    height: 46px !important;
+    padding: 0 30px !important;
+    border-radius: 9999px !important;
+    margin-top: 20px;*/
+   
 }
 

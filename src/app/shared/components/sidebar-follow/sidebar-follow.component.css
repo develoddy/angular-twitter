@@ -1,0 +1,81 @@
+/* HEADER */
+.follow {
+    padding: 10px 15px;
+    border-top: 1px solid #ddd;
+    margin-top: 5px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.follow > .post_avatar {
+    margin-top: 4px;
+}
+
+.follow > .post_avatar > img.avatar {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    object-fit: fill;
+}
+
+/* BODDY */
+.postBody {
+    padding-left: 10px;
+    width: 100%;
+    overflow: hidden;
+}
+
+
+.postBody > div > div > div.grid {
+    /*display: flex;
+    flex-direction: column;
+    width: 100%;*/
+
+    display: flex;
+    max-width: 100% !important;
+}
+
+.postBody > div > div > div.grid > .columns {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.postBody > div > div > div.grid > .columns > h3 {
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+    width: 100%;
+    font-size: 19px;
+    color: #0f1419;
+}
+
+/***** Buttpon *****/
+.postBody > div > div > div.grid > button {
+    background-color: #000 !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 900 !important;
+    width: 100px !important;
+    height: 40px !important;
+    margin-top: 5px !important;
+    border-radius: 30px !important;
+    text-transform: inherit !important;
+} 
+
+/*
+.postBody > div span {
+    font-weight: 600;
+    font-size: 15px;
+    color: #5b7083;
+}
+
+.post_icon {
+    font-size: 14px !important;
+    color: var(--twitterColor) !important;
+}
+
+h3 {
+    padding: 0;
+    margin: 0;
+}*/

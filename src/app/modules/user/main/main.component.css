@@ -90,6 +90,12 @@
   display:none;
 }
 
+@media only screen and (max-width: 1280px) {
+  .container-widget {
+    flex: 0.4;
+  }
+}
+
 @media only screen and (max-width: 1200px) {
   .container-widget {
     flex: 0.4;
