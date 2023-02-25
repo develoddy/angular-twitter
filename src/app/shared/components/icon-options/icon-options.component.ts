@@ -10,4 +10,5 @@ export class IconOptionsComponent {
   @Input() text = '';
   @Input() type = '';
   @Input() active = '';
+  @Input() primary = '';
 }

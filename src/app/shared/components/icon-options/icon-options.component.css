@@ -3,10 +3,32 @@
     align-items: center;
     padding: 14px 10px;
 }
+
 .sidebarIcon > h2 {
     font-size: 19px;
     margin: 0 15px 0 20px;
     font-weight: 700;
+}
+
+@media only screen and (max-width: 1280px) {
+    .sidebarIcon {
+        border-radius: 50%;
+    }
+    
+    .sidebarIcon > h2 {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .sidebarIcon {
+        color: #b8b8b8;
+        /*display: ${props => props.primary ? "none": "" };*/
+        color: var(--twitterColor);
+    }
+    .primary {
+        display: none;
+    }
 }
 
 .sidebarIcon > i {
@@ -25,3 +47,4 @@
     color: var(--twitterColor) !important;
     background-color: var(--hover) !important;
 }
+
