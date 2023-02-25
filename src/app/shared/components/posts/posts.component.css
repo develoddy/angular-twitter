@@ -60,3 +60,43 @@ h3 {
     width: 100%;
     min-height: 300px;
 }
+
+.postFooter {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    color: #5b7083;
+    transition: all 100ms ease-in;
+}
+
+.postFooter > i {
+    font-size: 18px;
+}
+
+.postFooter > i:hover:nth-child(1) {
+    fill: #1da1f2;
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+.postFooter > i:hover:nth-child(2) {
+    fill: #17bf63;
+    color: #17bf63;
+    cursor: pointer;
+}
+
+.postFooter > i:hover:nth-child(3) {
+    fill: #e02452;
+    color: #e02452;
+    cursor: pointer;
+}
+
+.postFooter > i:hover:nth-child(4) {
+    fill: #1da1f2;
+    color: #1da1f2;
+    cursor: pointer;
+}
+
+/*.divBox > i:nth-child(1) {
+    border: 1px solid var(--twitterColor);
+}*/

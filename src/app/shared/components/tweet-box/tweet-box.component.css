@@ -3,24 +3,25 @@
     padding: 5px 15px;
 }
 
-.form {
+form {
     display: flex;
     flex-direction: column;
+    width: 100%;
 }
 
 div {
     display: flex;
-    width: 100%;
+    max-width: 100% !important;
 }
 
-div > .columns {
+div > div.columns {
     display: flex;
-        flex-direction: column;
-        width: 100%;
-        padding-right: 16px;
+    flex-direction: column;
+    width: 100%;
+    padding-right: 16px;
 }
 
-div > .columns > input {
+div > div.columns > input {
     margin-left: 10px;
     margin-top: 10px;
     width: 100%;
@@ -28,6 +29,17 @@ div > .columns > input {
     outline: 0;
     font-size: 19px;
     line-height: 25px;
+    color: #0f1419;
+}
+
+div > input {
+    margin-left: 10px;
+    width: 100%;
+    flex: 1;
+    border: none;
+    outline: 0;
+    font-size: 19px;
+    line-height: 24px;
     color: #0f1419;
 }
 
@@ -43,25 +55,27 @@ div > button {
     text-transform: inherit !important;
 } 
 
-div > .divBox {
+.divBox {
     display: flex;
     justify-content: space-around;
     align-items: center;
 }
 
-div > .divBox > i {
+.divBox > i {
     fill: var(--twitterColor);
     margin-left: 1rem;
-    border: 2px solid var(--twitterColor);
+    /*color: 2px solid var(--twitterColor);*/
+    color: var(--twitterColor);
     width: 20px;
     height: 20px;
+    font-size: 22px;
     border-radius: 5px;
     cursor: pointer;
 }
 
-div > .divBox > i:nth-child(1) {
+/*.divBox > i:nth-child(1) {
     border: 1px solid var(--twitterColor);
-}
+}*/
 
 .avatar {
     border-radius: 50%;

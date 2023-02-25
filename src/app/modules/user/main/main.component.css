@@ -3,7 +3,6 @@
   height: 100vh;
   max-width: 1250px;
   margin: 0 auto;
-  border: 1px solid red;
 }
 
 .container-sidebar {
@@ -11,9 +10,7 @@
   border-right: 1px solid #ddd;
   flex: 0.2;
   min-width: 255px;
-  border: 1px solid red;
 }
-
 
 .container-home {
   flex: 0.5;
@@ -25,5 +22,18 @@
 }
 
 .container-home::-webkit-scrollbar {
+  display:none;
+}
+
+.container-widget {
+  flex: 0.3;
+  overflow-y: scroll;
+  box-sizing: border-box;
+  padding: 0 30px 10px 20px;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.container-widget::-webkit-scrollbar {
   display:none;
 }
