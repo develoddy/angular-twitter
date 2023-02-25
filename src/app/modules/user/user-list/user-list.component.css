@@ -6,6 +6,24 @@
     fill: var(--twitterColor) !important;
 }
 
+.container > button {
+    background-color: var(--twitterColor) !important;
+    border: none !important;
+    color: #fff !important;
+    font-weight: 800 !important;
+    text-transform: inherit !important;
+    height: 46px !important;
+    padding: 0 30px !important;
+    border-radius: 9999px !important;
+    margin-top: 20px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .container > button {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 500px) {
     .container {
@@ -21,6 +39,10 @@
     }
 
     .twitter-logo {
+        display: none;
+    }
+
+    .container > button {
         display: none;
     }
 }
