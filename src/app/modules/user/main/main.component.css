@@ -13,7 +13,6 @@
   min-width: 255px;
 }
 
-
 @media only screen and (max-width: 1280px) {
   .container-sidebar {
     flex: 0.05;
@@ -32,7 +31,6 @@
     position: fixed;
     bottom: 0;
     display: flex;
-    /*justify-content: space-around;*/
     align-items: center;
     z-index: 999;
     height: 50px;
@@ -41,7 +39,6 @@
     padding: 0;
   }
 }
-
 
 /* ----- Container-home ----- */
 .container-home {
@@ -74,7 +71,6 @@
     flex: 1;
   }
 }
-
 
 /* ----- Container-widget ----- */
 .container-widget {
