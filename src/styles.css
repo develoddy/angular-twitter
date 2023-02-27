@@ -1,8 +1,8 @@
 /* You can add global styles to this file, and also import other style files */
 :root {
-  --twitterColor: #1d9bf0;
-  --twitterHover: #1a8cd8;
-  --hover: rgba(24, 161, 242, .1);
+  --twitterColor: #000;
+  --twitterHover: #F5F6F7;
+  --hover: #F5F6F7;
 }
 
 * {

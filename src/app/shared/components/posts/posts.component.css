@@ -1,7 +1,7 @@
 /*Post*/
 .posts {
     padding: 10px 15px;
-    border-top: 1px solid #ddd;
+    /*border-top: 1px solid #ddd;*/
     margin-top: 5px;
     display: flex;
     align-items: flex-start;
@@ -41,18 +41,6 @@ h3 {
     object-fit: fill;
 }
 
-/*postDescription*/
-.postDescription {
-    margin-bottom: 10px;
-}
-
-.postDescription > p {
-    margin: 0;
-    padding: 0;
-    color: #0f1419;
-    font-size: 16px;
-    line-height: 16.6875px;
-}
 
 .images {
     border-radius: 20px;
@@ -62,41 +50,124 @@ h3 {
 }
 
 .postFooter {
+    border: 1px solid #fff;
+}
+
+.postFooter > section {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+}
+
+/*Button1*/
+.postFooter > section > span._aamw {
+    display: inline-block;
+    margin-left: -8px;
+}
+
+.postFooter > section > span._aamw > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.postFooter > section > span._aamw > button > div > i {
+    font-size: 22px;
+}
+
+/*Button2*/
+.postFooter > section > span._aamx > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.postFooter > section > span._aamx > button > div > i {
+    font-size: 22px;
+}
+
+/*Button3*/
+.postFooter > section > span._aamy > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.postFooter > section > span._aamy > button > div > i {
+    font-size: 22px;
+}
+
+/*Button4*/
+.postFooter > section > span._aamz {
+    border: 0;
+    display: inline-block;
+    font: inherit;
+    font-size: 100%;
+    margin: 0;
+    margin-left: auto;
+    margin-right: -10px;
+    padding: 0;
+    vertical-align: baseline;
+}
+
+.postFooter > section > span._aamz > button {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.postFooter > section > span._aamz > button > div > i {
+    font-size: 22px;
+}
+
+
+/*Section info likes*/
+.postFooter > section > div {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: stretch;
+}
+
+
+.postFooter > section > div > div > img {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+}
+
+/*postDescription*/
+.postDescription {
     margin-top: 10px;
-    color: #5b7083;
-    transition: all 100ms ease-in;
 }
 
-.postFooter > i {
-    font-size: 18px;
+.postDescription > p {
+    margin: 0;
+    padding: 0;
+    color: #0f1419;
+    font-size: 16px;
+    line-height: 16.6875px;
 }
-
-.postFooter > i:hover:nth-child(1) {
-    fill: #1da1f2;
-    color: #1da1f2;
-    cursor: pointer;
-}
-
-.postFooter > i:hover:nth-child(2) {
-    fill: #17bf63;
-    color: #17bf63;
-    cursor: pointer;
-}
-
-.postFooter > i:hover:nth-child(3) {
-    fill: #e02452;
-    color: #e02452;
-    cursor: pointer;
-}
-
-.postFooter > i:hover:nth-child(4) {
-    fill: #1da1f2;
-    color: #1da1f2;
-    cursor: pointer;
-}
-
-/*.divBox > i:nth-child(1) {
-    border: 1px solid var(--twitterColor);
-}*/
