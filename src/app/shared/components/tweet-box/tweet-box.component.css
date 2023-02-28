@@ -9,30 +9,31 @@
 }
 
 #carousel {
-  height: calc(15vh - 150px);
-  width: calc(100vw - 150px);
-  overflow: hidden;
-  scroll-behavior: smooth;
-  display: flex;
-  justify-content: space-between;
+    height: calc(34vh - 170px);
+    width: calc(77vw - 150px);
+    overflow: hidden;
+    scroll-behavior: smooth;
+    display: flex;
+    justify-content: space-between;
 }
 
 .card {
-  flex-shrink: 0;
-  background-color: #545454;
-  height: 100%;
-  /* width: calc(20% - 8px); */
-  width: calc(8% - 8px);
-  margin: 0 5px;
-  transition: transform 1s;
-  background-repeat: no-repeat;
-  background-size: auto 120%;
-  background-position: center;
-  transition: all 0.3s;
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 50%;
+    flex-shrink: 0;
+    background-color: #545454;
+    height: 100%;
+    /* width: calc(20% - 8px); */
+    width: calc(8% - 8px);
+    margin: 0 5px;
+    transition: transform 1s;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    background-position: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    border-radius: 50%;
 }
+
 .card:hover {
   background-size: auto 100%;
 }
@@ -89,12 +90,13 @@
 }
 
 #leftArrow {
-  left: 5rem;/*0;*/
+  left: 24rem;/*0;*/
 }
 
 #rightArrow {
-  right: 0;
+  right: 36rem;
 }
+
 .arrow {
   position: absolute;
   height: auto;
@@ -108,70 +110,160 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*
-.tweetbox > .container-storie {
-    border: 1px solid red;
-    border-radius: 8px;
-    margin-bottom: 0;
-    margin-top: 16px;
-    padding: 16px 0;
-    display: flex;
-    flex-direction: row;
+@media only screen and (max-width: 1600px) {
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(9% - 8px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    #leftArrow {
+        left: 5rem;
+    }
+      
+    #rightArrow {
+        right: 36rem;
+    }
 }
 
-ul {
-    list-style-type: none;
-    display: flex;
-    max-width: 100%;
+
+@media only screen and (max-width: 1400px) {
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(9% - 8px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    #leftArrow {
+        left: 5rem;
+    }
+      
+    #rightArrow {
+        right: 36rem;
+    }
 }
 
-li {
-    padding-right: 15px;
+@media only screen and (max-width: 1280px) {
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(9% - 8px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    #leftArrow {
+        left: 5rem;
+    }
+      
+    #rightArrow {
+        right: 36rem;
+    }
 }
 
-.avatar {
-    border-radius: 50%;
-    width: 60px;
-    height: 60px;
-    object-fit: fill;
-}*/
+@media only screen and (max-width: 1160px) {
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(13% - 8px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 
-
-/*
-form {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    margin-top: 10px;
+    #leftArrow {
+        left: 8rem;
+    }
+      
+    #rightArrow {
+        right: 2rem;
+    }
 }
-
-div {
-    display: flex;
-    max-width: 100% !important;
+  
+@media only screen and (max-width: 1004px) {
+  
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(13% - 8px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
 }
+  
+@media only screen and (max-width: 500px) {
 
-.avatar {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    object-fit: fill;
-}*/
+    #carousel {
+        height: calc(34vh - 170px);
+        width: calc(100vw - 0px);
+        overflow: hidden;
+        scroll-behavior: smooth;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .card {
+        flex-shrink: 0;
+        background-color: #545454;
+        height: 100%;
+        width: calc(17% - 0px);
+        margin: 0 5px;
+        transition: transform 1s;
+        background-repeat: no-repeat;
+        background-size: auto 120%;
+        background-position: center;
+        transition: all 0.3s;
+        cursor: pointer;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+   
+    #leftArrow {
+        left: 0rem;
+    }
+      
+    #rightArrow {
+        right: 0rem;
+    }
+
+}
