@@ -1,10 +1,164 @@
 .tweetbox {
-    padding: 5px 15px;
+    padding: 15px 15px;
+    margin: 0;
+    background-color: #fff;
+    display: grid;
+    place-items: center;
+    /* height: 100vh; */
+    font-family: 'Montserrat', sans-serif;
 }
 
+#carousel {
+  height: calc(15vh - 150px);
+  width: calc(100vw - 150px);
+  overflow: hidden;
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  flex-shrink: 0;
+  background-color: #545454;
+  height: 100%;
+  /* width: calc(20% - 8px); */
+  width: calc(8% - 8px);
+  margin: 0 5px;
+  transition: transform 1s;
+  background-repeat: no-repeat;
+  background-size: auto 120%;
+  background-position: center;
+  transition: all 0.3s;
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 50%;
+}
+.card:hover {
+  background-size: auto 100%;
+}
+.card:first-child { margin-left: 0; }
+.card:last-child { margin-right: 0; }
+
+.card > img {
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: auto 120%;
+    background-position: center;
+    transition: all 0.3s;
+    cursor: pointer;
+    overflow: hidden;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.card p {
+  margin: 0;
+  height: 100%;
+  display: grid;
+  place-items: center;
+  font-size: 10vw;
+  color: white;
+  transition: all 0.3s;
+  transform: scale(1);
+}
+.card:hover p {
+  background-color: rgba(0,0,0,0.3);
+  transform: scale(1.3);
+}
+
+#pagination {
+  position: absolute;
+  bottom: 0;
+  height: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  height: 12px;
+  width: 12px;
+  background-color: white;
+  border-radius: 20px;
+  margin: 2px;
+  cursor: pointer;
+  transition: width 0.2s;
+}
+.ball:first-child {
+  width: 25px;
+}
+
+#leftArrow {
+  left: 5rem;/*0;*/
+}
+
+#rightArrow {
+  right: 0;
+}
+.arrow {
+  position: absolute;
+  height: auto;
+  width: 75px;
+  color: #000;
+  font-size: 30px;
+  display: grid;
+  place-items: center;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+.tweetbox > .container-storie {
+    border: 1px solid red;
+    border-radius: 8px;
+    margin-bottom: 0;
+    margin-top: 16px;
+    padding: 16px 0;
+    display: flex;
+    flex-direction: row;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    max-width: 100%;
+}
+
+li {
+    padding-right: 15px;
+}
+
+.avatar {
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    object-fit: fill;
+}*/
+
+
+/*
 form {
     display: flex;
-    /*flex-direction: column;*/
     width: 100%;
     justify-content: space-between;
     margin-top: 10px;
@@ -20,4 +174,4 @@ div {
     width: 50px;
     height: 50px;
     object-fit: fill;
-}
+}*/

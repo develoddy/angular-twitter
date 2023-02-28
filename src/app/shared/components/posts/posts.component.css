@@ -1,37 +1,46 @@
-/*Post*/
 .posts {
-    padding: 10px 15px;
-    /*border-top: 1px solid #ddd;*/
-    margin-top: 5px;
+    /*padding: 10px 100px;
+    max-width: calc(100% - 48px);*/
+    max-width: 470px;
+}
+
+.post-header {
     display: flex;
-    align-items: flex-start;
+    flex-direction: row;
 }
 
-.post_avatar {
-    margin-top: 4px;
+.post-header > header {
+    align-items: center;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-shrink: 1;
+    /* max-width: calc(100% - 48px); */
+    max-width: 100%;
+    /*    max-width: 470px;*/
+    padding: 0px 5px 5px 0px;
 }
 
-/*PostBoddy*/
-.postBody {
-    padding-left: 10px;
-    width: 100%;
-    overflow: hidden;
+.post-header > header > .post_avatar {
+    margin-top: 14px;
 }
 
-.postBody > div span {
-    font-weight: 600;
-    font-size: 15px;
-    color: #5b7083;
+.post-header > header > .header-username {
+    margin-left: 10px;
 }
 
-.post_icon {
-    font-size: 14px !important;
-    color: var(--twitterColor) !important;
+.post-header > .btn-more {
+    margin-top: 20px;
 }
-
-h3 {
-    padding: 0;
-    margin: 0;
+.post-header > .btn-more > button {
+    align-items: center;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    padding: 8px;
 }
 
 .avatar {
@@ -42,8 +51,25 @@ h3 {
 }
 
 
+
+
+
+
+
+/**** PostBoddy *****/
+.postBody {
+    padding-left: 0;
+    width: 100%;
+    overflow: hidden;
+}
+
+.post_icon {
+    font-size: 14px !important;
+    color: var(--primaryTextcolor) !important;
+}
+
+
 .images {
-    border-radius: 20px;
     min-width: 100%;
     width: 100%;
     min-height: 300px;
@@ -159,6 +185,10 @@ h3 {
     border-radius: 50%;
 }
 
+.postFooter > section > div > .text-likes {
+    padding-left: 5px;
+}
+
 /*postDescription*/
 .postDescription {
     margin-top: 10px;
@@ -170,4 +200,24 @@ h3 {
     color: #0f1419;
     font-size: 16px;
     line-height: 16.6875px;
+}
+
+.postDescription > .traductor {
+    margin-top: 5px;
+}
+
+.postDescription > .traductor > span {
+    font-size: 14px;
+    color: #000;
+    font-weight: 700;
+}
+
+.postDescription > .comments {
+    margin-top: 5px;
+}
+
+.postDescription > .comments > a {
+    font-size: 14px;
+    color: gray;
+    text-decoration: none;
 }

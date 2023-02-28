@@ -3,7 +3,6 @@ import { SharedModule } from '@shared/shared.module';
 import { SidebarComponent } from './sidebar/sidebar.component';
 import { FeedComponent } from './feed/feed.component';
 import { UserRoutingModule } from './user-routing.module';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MainComponent } from './main/main.component';
 import { WidgetsComponent } from './widgets/widgets.component';
 
@@ -17,8 +16,7 @@ import { WidgetsComponent } from './widgets/widgets.component';
   ],
   imports: [
     SharedModule,
-    UserRoutingModule,
-    MatSlideToggleModule,
+    UserRoutingModule
   ]
 })
 export class UserModule { }

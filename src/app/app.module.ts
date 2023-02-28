@@ -10,8 +10,6 @@ import { SkeletonComponent } from './layout/skeleton/skeleton.component';
 import { FooterComponent } from './layout/footer/footer.component';
 import { NavigationComponent } from './layout/navigation/navigation.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
-import { MatButtonModule } from '@angular/material/button';
 
 @NgModule({
   declarations: [
@@ -26,9 +24,7 @@ import { MatButtonModule } from '@angular/material/button';
     CoreModule,
     SharedModule,
     AppRoutingModule,
-    BrowserAnimationsModule,
-    MatSlideToggleModule,
-    MatButtonModule
+    BrowserAnimationsModule
   ],
   providers: [
     {

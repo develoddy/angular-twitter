@@ -60,6 +60,13 @@
   }
 }
 
+@media only screen and (max-width: 1160px) {
+  .container-home {
+    flex: 0.95;
+  }
+}
+
+
 @media only screen and (max-width: 1004px) {
   .container-home {
     flex: 0.95;
@@ -96,6 +103,12 @@
   .container-widget {
     flex: 0.4;
   }
+}
+
+@media only screen and (max-width: 1160px) {
+  .container-widget {
+    display: none;
+  } 
 }
 
 @media only screen and (max-width: 1004px) {
